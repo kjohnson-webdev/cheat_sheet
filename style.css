@@ -39,7 +39,7 @@ h1 {
     text-align: center;
     padding: 0.5rem;
     letter-spacing: 5px;
-    color: slategray;
+    color: hsl(0, 0%, 20%);
     background-color: antiquewhite;
     width: fit-content;
     margin: 20px auto;
@@ -76,10 +76,13 @@ td {
 }
 
 .col1 {
-    width: 150px;
+    width: 115px;
 }
 
 table caption {
     font-size: 2rem;;
 }
 
+tr:nth-child(even) {
+    background-color: rgb(244, 245, 174);
+}

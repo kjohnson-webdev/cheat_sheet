@@ -31,27 +31,27 @@
             <tbody>
                 <tr>
                     <td>Type</td>
-                    <td><span class="code">tag { declaration }</span></td>
+                    <td><span class="code">tag {}</span></td>
                     <td>Styles all instances of selected tag in the HTML code</td>
                 </tr>
                 <tr>
                     <td>Class</td>
-                    <td><span class="code">.classname { declaration }</span></td>
+                    <td><span class="code">.classname {}</span></td>
                     <td>Styles instances of the selected class</td>
                 </tr>
                 <tr>
                     <td>ID</td>
-                    <td><span class="code">#elementid { declaration }</span></td>
+                    <td><span class="code">#elementid {}</span></td>
                     <td>Style element with selected ID (most specific selector)</td>
                 </tr>
                 <tr>
                     <td>Attribute</td>
-                    <td><span class="code">[attribute] { declaration }</span></td>
+                    <td><span class="code">[attribute] {}</span></td>
                     <td>Styles elements with selected attribute</td>
                 </tr>
                 <tr>
                     <td>Attribute+Value</td>
-                    <td><span class="code">[attribute*='value'] { declaration }</span></td>
+                    <td><span class="code">[attribute*='value'] {}</span></td>
                     <td>Styles elements with selected property AND value</td>
                 </tr>
             </tbody>
@@ -65,23 +65,28 @@
             </tr>
             <tr>
                 <td>Focus</td>
-                <td><span class="code">selector:focus { declaration }</span></td>
+                <td><span class="code">selector:focus {}</span></td>
                 <td>User clicks, taps, or otherwise selects element</td>
             </tr>
             <tr>
                 <td>Hover</td>
-                <td><span class="code">selector:hover { declaration }</span></td>
+                <td><span class="code">selector:hover {}</span></td>
                 <td>Cursor touches or "hovers" over element.</td>
             </tr>
             <tr>
                 <td>Visited</td>
-                <td><span class="code">selector:visited { declaration }</span></td>
+                <td><span class="code">selector:visited {}</span></td>
                 <td>User has already clicked on the link.</td>
             </tr>
             <tr>
                 <td>Active</td>
-                <td><span class="code">selector:active { declaration }</span></td>
+                <td><span class="code">selector:active {}</span></td>
                 <td>The element is "activated" (usually clicked) by the user</td>
+            </tr>
+            <tr>
+                <td>nth child</td>
+                <td><span class="code">selector:nth-child(value)</span></td>
+                <td>Selects based on position among siblings (odd/even, num)</td>
             </tr>
         </table>
     </main>
