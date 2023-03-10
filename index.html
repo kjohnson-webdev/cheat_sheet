@@ -13,13 +13,16 @@
         <nav>
             <ul>
                 <a href="#selectors"><li>Selectors</li></a>
+                <a href="#media-query"><li>@media</li></a>
             </ul>
         </nav>
         
     </header>
     <main>
-        <h2 id="selectors">Selectors</h2>
-        <table>
+
+        <!-- Selector Tables -->
+        
+        <table id="selectors">
             <caption>Basic Selectors</caption>
             <thead>
                 <tr>
@@ -93,6 +96,40 @@
                 </tr>
             </tbody>
         </table>
+
+        <!--Media Query Table(s)-->
+
+        <table id="media-query">
+            <caption>Media Queries</caption>
+            <thead>
+                <tr>
+                    <th class="col1">Name</th>
+                    <th>Syntax</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Screen</td>
+                    <td><span class="code">@media screen {}</span></td>
+                    <td>Targets device displays but not printed</td>
+                </tr>
+                <tr>
+                    <td>Print</td>
+                    <td><span class="code">@media print {}</span></td>
+                    <td>Allows different styling when printed</td>
+                </tr>
+                <tr>
+                    <td>Screen Width</td>
+                    <td>
+                        <span class="code">@media (max-width: 1250px)</span>
+                        <span class="code">@media (min-wdith: 600px)</span>
+                    </td>
+                    <td>Targets styles for different screen sizes (responsive web design essential)</td>
+                </tr>
+            </tbody>
+        </table>
+
     </main>
 </body>
 </html>
